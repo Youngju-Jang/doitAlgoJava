@@ -1,4 +1,6 @@
-// 선형리스트 클래스 LinkedList<E>의 사용 예
+// 선형리스트 클래스 exam.chap08EX.LinkedListTest<E>의 사용 예
+
+import prac.chap08.LinkedList;
 
 import java.util.Scanner;
 import java.util.Comparator;

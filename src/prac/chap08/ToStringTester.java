@@ -1,3 +1,4 @@
+package prac.chap08;
 //toString 메서드의 오버라이드 차이점 확인
 
 class A {

@@ -1,5 +1,7 @@
 // 이진검색트리클래스BinTree<K,V>의 사용 예
 
+import exam.chap09EX.BinTree;
+
 import java.util.Scanner;
 
 class BinTreeTester {

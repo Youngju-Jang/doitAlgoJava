@@ -1,4 +1,4 @@
-// int형 고정 길이 스택
+package prac.chap05;// int형 고정 길이 스택
 
 public class IntStack {
     private int[] stk;            // 스택용 배열

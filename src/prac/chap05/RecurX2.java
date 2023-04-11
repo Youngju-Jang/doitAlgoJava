@@ -1,11 +1,13 @@
 // 재귀에 대한 이해를 돕는 순수 재귀 메서드(재귀를 제거)
 
+import exam.chap06EX.IntStack2;
+
 import java.util.Scanner;
 
 class RecurX2 {
     //--- 재귀를 제거한 recur ---//
     static void recur(int n) {
-        IntStack s = new IntStack(n);
+        IntStack2 s = new IntStack2(n);
 
         while (true) {
             if (n > 0) {

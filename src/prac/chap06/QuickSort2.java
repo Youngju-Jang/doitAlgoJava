@@ -1,5 +1,7 @@
 // 퀵 정렬(비재귀 버전)
 
+import exam.chap06EX.IntStack2;
+
 import java.util.Scanner;
 
 class QuickSort2 {
@@ -10,8 +12,8 @@ class QuickSort2 {
 
     //--- 퀵 정렬(비재귀 버전)---//
     static void quickSort(int[] a, int left, int right) {
-        IntStack lstack = new IntStack(right - left + 1);
-        IntStack rstack = new IntStack(right - left + 1);
+        IntStack2 lstack = new IntStack2(right - left + 1);
+        IntStack2 rstack = new IntStack2(right - left + 1);
 
         lstack.push(left);
         rstack.push(right);

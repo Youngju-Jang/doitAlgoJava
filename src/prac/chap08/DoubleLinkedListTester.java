@@ -1,4 +1,6 @@
-// 원형 이중 연결 리스트 클래스 DoubleLinkedList<E>의 사용 예
+// 원형 이중 연결 리스트 클래스 exam.chap08EX.DoubleLinkedList<E>의 사용 예
+
+import exam.chap08EX.DoubleLinkedList;
 
 import java.util.Scanner;
 import java.util.Comparator;

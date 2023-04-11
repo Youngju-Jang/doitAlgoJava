@@ -1,4 +1,6 @@
-// 선형리스트 클래스 ArrayLinkedList<E>의 사용 예
+// 선형리스트 클래스 exam.chap08EX.ArrayLinkedListTest<E>의 사용 예
+
+import exam.chap08EX.ArrayLinkedListTest;
 
 import java.util.Scanner;
 import java.util.Comparator;
@@ -110,7 +112,7 @@ class ArrayLinkedListTester {
         Data ptr;                 // 검색용 데이터 참조
         Data temp = new Data();   // 읽어 들일 데이터
 
-        ArrayLinkedList<Data> list = new ArrayLinkedList<Data>(100);
+        ArrayLinkedListTest<Data> list = new ArrayLinkedListTest<Data>(100);
 
         do {
             switch (menu = SelectMenu()) {

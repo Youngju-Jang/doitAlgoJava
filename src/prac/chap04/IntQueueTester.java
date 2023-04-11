@@ -1,5 +1,7 @@
 // int형 고정 길이 큐의 사용 예
 
+import exam.chap04EX.IntQueue;
+
 import java.util.Scanner;
 
 class IntQueueTester {

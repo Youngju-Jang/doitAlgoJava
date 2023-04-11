@@ -1,8 +1,15 @@
-// 연결 리스트 클래스
+package prac.chap08;// 연결 리스트 클래스
 
 import java.util.Comparator;
 
 public class LinkedList<E> {
+    public void purge(Comparator<E> noOrder) {
+    }
+    
+    public E retrieve(int no) {
+        return null;
+    }
+    
     //--- 노드 ---//
     class Node<E> {
         private E data;              // 데이터
