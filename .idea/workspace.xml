@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5760840b-1b34-44c3-bf69-63797759973f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="C:\git\repository3\doitAlgoJava\src\exam\chap04EX" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Max3Method">
     <configuration name="Max3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prac.chap01.Max3" />
       <module name="doitAlgoJava" />
@@ -91,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Max3Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prac.chap01.Max3Method" />
+      <module name="doitAlgoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prac.chap01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Max3Method" />
         <item itemvalue="Application.Max3" />
       </list>
     </recent_temporary>
@@ -105,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681223211131</updated>
-      <workItem from="1681223213479" duration="3841000" />
+      <workItem from="1681223213479" duration="4109000" />
     </task>
     <servers />
   </component>
