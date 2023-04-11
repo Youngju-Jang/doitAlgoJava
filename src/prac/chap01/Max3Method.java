@@ -1,4 +1,4 @@
-// 3개의 정숫값 가운데 최댓값을 구하여 출력
+package prac.chap01;// 3개의 정숫값 가운데 최댓값을 구하여 출력
 
 class Max3Method {
 	// a, b, c의 최댓값을 구하여 반환
@@ -9,7 +9,7 @@ class Max3Method {
         if (c > max) 
         	max = c;
 
-        return max;
+        return max; // sysout 대신 리턴으로.
     }
 
     public static void main(String[] args) {
