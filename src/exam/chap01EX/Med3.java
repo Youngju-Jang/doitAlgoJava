@@ -19,6 +19,13 @@ class Med3 {
 		else
 			return b;
 	}
+	static int med4(int a, int b, int c){
+		if( (b>=a && c<=a) || (b<=a && c>=a ))
+			return a;
+		else if((a>b && c<b) || (a <b && c>b))
+			return b;
+		return c;
+	}
 
 	public static void main(String[] args) {
 		System.out.println("med3(3,2,1) = " + med3(3,2,1));      // a＞b＞c
